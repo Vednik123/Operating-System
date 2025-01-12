@@ -6,10 +6,13 @@ Welcome to the **Custom Operating System** project! This operating system is dev
 
 ### Commands
 The operating system supports the following commands:
-- **PD**: [Description of PD command]
-- **GD**: [Description of GD command]
-- **BT**: [Description of BT command]
-- **CM**: [Description of CM command]
+- **GD10**: [Get the data from the data card and put the data in the memory whose starting address is given in the instruction]
+- **PD10**: [Print the data of the memory block whose address is given in the instruction]
+- **BT04**: [Move to a specific instruction if toggle register is set]
+- **CR10**: [Compare register content with memory content and store the data in the toggle register]
+- **LR20**: [Load the data stored in the memory location specified in the instruction to general purpose register]
+- **SR20**: [Store the data from the general purpose register to the memory whose address is specified in the instruction]
+- **H**:  [Halt or terminate the program]
 
 ### Memory Management
 - **Buffer Management**: Efficient handling of data transfer between memory and storage.
@@ -21,30 +24,11 @@ The operating system supports the following commands:
 ### Error Handling
 Robust error handling mechanisms ensure system stability and reliability.
 
-## Concepts Used
-1. **Buffer Management**: Handles temporary data storage during I/O operations.
-2. **Paging**: Divides memory into fixed-size pages to optimize space utilization.
-3. **Page Table**: Maps virtual addresses to physical memory locations.
-4. **Page Fault**: Manages situations where required pages are not in memory.
-5. **Page Replacement Techniques**:
-   - **FIFO** (First In, First Out)
-   - **LRU** (Least Recently Used)
-   - **Optimal Replacement**
-
 ## Getting Started
 
 ### Prerequisites
 - GCC Compiler for C/C++
 - Basic understanding of Operating System concepts
-
-## Usage
-Execute commands within the OS shell to perform various operations. For example:
-```bash
-PD
-GD
-BT
-CM
-```
 
 ## Contributing
 Contributions are welcome! Please follow these steps:
@@ -66,8 +50,8 @@ Contributions are welcome! Please follow these steps:
 ## Contact
 For any queries or suggestions, feel free to reach out:
 - **Name**: Vedant Nikam
-- **Email**: [your-email@example.com]
-- **GitHub**: [https://github.com/yourusername](https://github.com/yourusername)
+- **Email**: [nikam.vedant05@gmail.com]
+- **GitHub**: [https://github.com/Vednik123](https://github.com/Vednik123)
 
 ---
 
